@@ -1,4 +1,4 @@
-package br.com.alura.ecommerce;
+package br.com.alura;
 
 import java.io.Closeable;
 import java.time.Duration;

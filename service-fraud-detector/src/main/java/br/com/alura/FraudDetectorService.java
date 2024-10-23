@@ -1,10 +1,13 @@
-package br.com.alura.ecommerce;
+package br.com.alura;
 
 import java.util.Map;
 import java.util.Properties;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.springframework.core.annotation.Order;
+
+import br.com.alura.ecommerce.KafkaService;
 
 public class FraudDetectorService {
     

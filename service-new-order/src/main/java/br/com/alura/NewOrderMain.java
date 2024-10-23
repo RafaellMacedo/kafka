@@ -1,8 +1,10 @@
-package br.com.alura.ecommerce;
+package br.com.alura;
 
 import java.math.BigDecimal;
 import java.util.UUID;
 import java.util.concurrent.ExecutionException;
+
+import org.springframework.core.annotation.Order;
 
 public class NewOrderMain {
     

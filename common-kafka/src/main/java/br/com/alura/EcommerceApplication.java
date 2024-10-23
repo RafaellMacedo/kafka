@@ -1,4 +1,4 @@
-package br.com.alura.ecommerce;
+package br.com.alura;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -11,6 +11,14 @@
 	<groupId>br.com.alura</groupId>
 	<artifactId>ecommerce</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>service-email</module>
+		<module>service-fraud-detector</module>
+		<module>service-log</module>
+		<module>service-new-order</module>
+		<module>common-kafka</module>
+	</modules>
 	<name>ecommerce</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
