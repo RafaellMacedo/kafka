@@ -1,5 +1,7 @@
 package br.com.alura.ecommerce;
 
+import java.util.Map;
+
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 
 public class EmailService {
@@ -8,7 +10,10 @@ public class EmailService {
         var emailService = new EmailService();
         try(var service = new KafkaService(EmailService.class.getSimpleName(),
             "ECOMMERCE_SEND_EMAIL",
-            emailService::parse)) {
+            emailService::parse,
+            String.class,
+            Map.of()
+        )) {
             service.run();
         }
     }
